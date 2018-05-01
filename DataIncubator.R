@@ -79,7 +79,7 @@ out_of_state <- subset(montana, out_of_state == T)
 in_state <- subset(montana, out_of_state == F)
 
 #prop of out of state plates arrested in Montana
-nrow(subset(in_state, is_arrested == T))/nrow(subset(out_of_state, is_arrested == T))
+out_of_state_prop <- nrow(subset(out_of_state, is_arrested == T))/nrow(subset(in_state, is_arrested == T))
 
 #Question 2.3 chi-square test
 tbl1 <- table(montana$out_of_state, montana$is_arrested)
