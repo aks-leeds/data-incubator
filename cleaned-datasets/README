@@ -1,4 +1,4 @@
-This folder will contain the cleaned datasets after the initial exploratory analysis.
+This folder will contain the cleaned datasets after the initial exploratory analysis as well as the code used to generate it.
 The columns in the Twitter dataset are now restricted to:
 a. A timestamp for the tweet stored in a date/time format (e.g., one of the POSIX formats in R). The times are converted from GMT to Pacific Time, using Standard (PST) or Daylight (PDT) time as appropriate.
 b. Text of the tweet
