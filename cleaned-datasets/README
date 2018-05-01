@@ -1,0 +1,23 @@
+This folder will contain the cleaned datasets after the initial exploratory analysis.
+The columns in the Twitter dataset are now restricted to:
+a. A timestamp for the tweet stored in a date/time format (e.g., one of the POSIX formats in R). The times are converted from GMT to Pacific Time, using Standard (PST) or Daylight (PDT) time as appropriate.
+b. Text of the tweet
+c. URL of the tweet
+d. Type (which should all be New)
+e. Retweet Count
+f. Favorite Count
+
+The columns in the Facebook dataset are now restricted to:
+a. Post ID
+b. Permalink
+c. Post Message
+d. Type
+e. Posted date and time (stored in a date/time format in R).
+f. Lifetime Post organic reach
+g. Lifetime Post Total Impressions
+h. Number of likes (the count, not the number of unique users who liked)
+i. Number of shares (ditto)
+j. Number of comments 
+k. Lifetime Post Total Reach 
+l. Lifetime Engaged Users
+m. Lifetime Negative Feedback from Users
